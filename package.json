@@ -1,0 +1,42 @@
+{
+  "name": "awesome-emojis",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "typeofNaN",
+    "url": "https://github.com/typeofNaN",
+    "email": "dmdefine6@gmail.com"
+  },
+  "homepage": "https://github.com/typeofNaN/awesome-emojis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeofNaN/awesome-emojis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeofNaN/awesome-emojis/issues"
+  },
+  "license": "MIT",
+  "description": "基于Unicode的emoji表情包",
+  "keywords": [
+    "emojis",
+    "awesome-emojis",
+    "emoji表情包"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ]
+}
