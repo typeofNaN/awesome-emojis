@@ -1,8 +1,11 @@
 {
   "name": "awesome-emojis",
-  "version": "1.0.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "version": "1.0.1",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -37,6 +40,7 @@
   "files": [
     "dist/",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ]
 }

@@ -22,7 +22,11 @@ pnpm add awesome-emojis
 * 分组数组数据
 
 ``` js
+// ESM
 import { EmojiGroup } from 'awesome-emojis'
+
+// commonjs
+const { EmojiGroup } = require('awesome-emojis')
 
 console.log(EmojiGroup)
 // [
