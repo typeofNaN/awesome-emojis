@@ -1,6 +1,9 @@
 {
   "name": "awesome-emojis",
-  "version": "1.0.4",
+  "version": "1.0.5",
+  "main": "./dist/awesome-emojis.cjs",
+  "module": "./dist/awesome-emojis.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

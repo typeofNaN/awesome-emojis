@@ -1,6 +1,12 @@
 # ChangeLog
 
-## [v1.0.4](https://github.com/typeofNaN/awesome-emojis/compare/v1.0.3...v1.0.4) (2025-07-07)
+## [v1.0.5](https://github.com/typeofNaN/awesome-emojis/compare/v1.0.4...v1.0.5) (2025-07-14)
+
+### 🐞 修复Bug
+
+* 修复TS类型异常问题
+
+## [v1.0.4](https://github.com/typeofNaN/awesome-emojis/compare/v1.0.3...v1.0.4) (2025-07-14)
 
 ### 🐞 修复Bug
 
