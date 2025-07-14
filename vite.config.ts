@@ -12,8 +12,7 @@ export default defineConfig({
     lib: {
       entry: './src/index.ts',
       name: 'AwesomeEmojis',
-      formats: ['es', 'umd', 'cjs'],
-      fileName: 'index'
+      formats: ['es', 'umd', 'cjs']
     }
   }
 })
